@@ -7,6 +7,19 @@
     </div>
 
     <div class="row">
+      <div class="col-lg-6">
+        <form action="<?= BASEURL ?>/mahasiswa/cari" method="post">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" name="keyword" id="keyword" placeholder="cari mahasiswa.." aria-label="Recipient's username" aria-describedby="button-addon2" nama="keyword" id="keyword">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="submit" id="tombolCari" autocomplete="off">Cari</button>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
         <div class="col-6">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary mb-3 tombolTambahData" data-toggle="modal" data-target="#formModal">
